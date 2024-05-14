@@ -1,9 +1,10 @@
-package kr.co.kotlin.api.controller.v1.user
+package kr.co.kotlin.api.controller.user
 
-import kr.co.kotlin.api.controller.v1.user.request.UserCreateRequest
-import kr.co.kotlin.api.controller.v1.user.response.UserResponse
+import kr.co.kotlin.api.controller.user.request.UserCreateRequest
+import kr.co.kotlin.api.controller.user.response.UserResponse
 import kr.co.kotlin.domain.user.service.UserService
-import kr.co.kotlin.boilerplate.infrastructure.util.response.ApiResponse
+import kr.co.kotlin.support.util.response.Response
+
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PathVariable
 import org.springframework.web.bind.annotation.PostMapping
@@ -19,16 +20,16 @@ class UserController(
     @GetMapping("/{id}")
     fun findUserById(
         @PathVariable("id") id: Long
-    ): ApiResponse<UserResponse> {
+    ): Response<UserResponse> {
         val findUser = userService.findById(id)
-        return ApiResponse.success(UserResponse.fromDomain(findUser))
+        return Response.success(UserResponse.fromDomain(findUser))
     }
 
     @PostMapping
     fun createUser(
         @RequestBody userCreateRequest: UserCreateRequest
-    ): ApiResponse<Boolean> {
+    ): Response<Boolean> {
         userService.createUser(userCreateRequest.toDomain())
-        return ApiResponse.success(true)
+        return Response.success(true)
     }
 }

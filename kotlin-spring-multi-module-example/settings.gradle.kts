@@ -6,7 +6,6 @@ include(
     "module:infrastructure:rdb",
     "support:util",
     "support:logging",
-    "support:client",
 )
 
 pluginManagement {

@@ -9,4 +9,4 @@ import org.springframework.transaction.annotation.EnableTransactionManagement
 @EnableTransactionManagement
 @EntityScan(basePackages = ["kr.co.kotlin.infrastructure.rdb"])
 @EnableJpaRepositories(basePackages = ["kr.co.kotlin.infrastructure.rdb"])
-internal class MainJpaConfig
+internal class JpaConfig

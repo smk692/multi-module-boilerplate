@@ -1,4 +1,4 @@
-package kr.co.kotlin.api.controller.v1.user.request
+package kr.co.kotlin.api.controller.user.request
 
 import kr.co.kotlin.domain.user.domain.User
 

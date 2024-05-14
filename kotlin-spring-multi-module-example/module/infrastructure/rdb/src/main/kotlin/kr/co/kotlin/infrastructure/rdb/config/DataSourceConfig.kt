@@ -8,15 +8,15 @@ import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration
 
 @Configuration
-internal class MainDataSourceConfig {
+internal class DataSourceConfig {
     @Bean
     @ConfigurationProperties(prefix = "rdb.datasource.main")
-    fun mainHikariConfig(): HikariConfig {
+    fun masterHikariConfig(): HikariConfig {
         return HikariConfig()
     }
 
     @Bean
-    fun mainDataSource(@Qualifier("mainHikariConfig") config: HikariConfig): HikariDataSource {
+    fun mainDataSource(@Qualifier("masterHikariConfig") config: HikariConfig): HikariDataSource {
         return HikariDataSource(config)
     }
 }
