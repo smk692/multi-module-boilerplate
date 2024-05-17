@@ -2,7 +2,7 @@ package kr.co.kotlin.api.controller.user.request
 
 import kr.co.kotlin.domain.user.domain.User
 
-data class UserCreateRequest(
+data class UserCreateRequestDto(
     val username: String,
     val email: String
 ) {
