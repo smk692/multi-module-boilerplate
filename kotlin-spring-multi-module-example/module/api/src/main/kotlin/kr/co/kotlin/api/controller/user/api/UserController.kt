@@ -2,9 +2,8 @@ package kr.co.kotlin.api.controller.user.api
 
 import kr.co.kotlin.api.controller.user.application.UserService
 import kr.co.kotlin.api.controller.user.request.UserCreateRequestDto
+import kr.co.kotlin.api.controller.user.request.UserUpdateRequestDto
 import kr.co.kotlin.api.controller.user.response.UserResponseDto
-import kr.co.kotlin.domain.user.service.UserCreatorDService
-import kr.co.kotlin.domain.user.service.UserReaderDService
 import kr.co.kotlin.support.util.response.Response
 
 import org.springframework.web.bind.annotation.GetMapping
@@ -27,13 +26,14 @@ class UserController(
     }
 
     @PostMapping
-    fun createUser(@RequestBody userCreateRequestDto: UserCreateRequestDto): Response<UserResponseDto> {
-        val saveUser = userService.createUser(userCreateRequestDto)
-        return Response.success(UserResponseDto.fromDomain(saveUser))
+    fun createUser(@RequestBody userCreateRequestDto: UserCreateRequestDto): Response<Long> {
+        val userId = userService.createUser(userCreateRequestDto)
+        return Response.success(userId)
     }
 
     @PutMapping("/{id}")
-    fun updateUser(@PathVariable id: String) {
-
+    fun updateUser(@PathVariable id: Long, @RequestBody userUpdateRequestDto: UserUpdateRequestDto): Response<Long> {
+        val userId = userService.updateUser(id, userUpdateRequestDto)
+        return Response.success(userId)
     }
 }

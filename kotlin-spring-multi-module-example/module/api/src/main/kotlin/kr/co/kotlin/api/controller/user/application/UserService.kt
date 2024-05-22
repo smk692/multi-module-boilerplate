@@ -1,21 +1,31 @@
 package kr.co.kotlin.api.controller.user.application
 
 import kr.co.kotlin.api.controller.user.request.UserCreateRequestDto
+import kr.co.kotlin.api.controller.user.request.UserUpdateRequestDto
 import kr.co.kotlin.domain.user.domain.User
-import kr.co.kotlin.domain.user.service.UserCreatorDService
+import kr.co.kotlin.domain.user.repository.UserRepository
 import kr.co.kotlin.domain.user.service.UserReaderDService
+import kr.co.kotlin.domain.user.service.UserTransactionDService
 import org.springframework.stereotype.Service
+import org.springframework.transaction.annotation.Transactional
+
 
 @Service
 class UserService(
-    private val userCreator: UserCreatorDService,
-    private val userReaderDService: UserReaderDService
+    private val userTransactionDService: UserTransactionDService,
+    private val userReaderDService: UserReaderDService,
 ) {
-    fun createUser(userCreateRequestDto: UserCreateRequestDto): User {
-        return userCreator.createUser(userCreateRequestDto.toDomain())
-    }
-
     fun findUserById(id: Long): User {
         return userReaderDService.findByIdOrNull(id)
+    }
+
+    @Transactional
+    fun createUser(userCreateRequestDto: UserCreateRequestDto): Long {
+        return userTransactionDService.createUser(userCreateRequestDto.toDomain())
+    }
+
+    @Transactional
+    fun updateUser(id: Long, userUpdateRequestDto: UserUpdateRequestDto): Long {
+        return userTransactionDService.updateUser(id, userUpdateRequestDto.userName)
     }
 }

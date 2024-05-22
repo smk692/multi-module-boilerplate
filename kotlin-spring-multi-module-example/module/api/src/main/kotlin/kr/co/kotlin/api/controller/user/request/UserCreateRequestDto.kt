@@ -8,7 +8,7 @@ data class UserCreateRequestDto(
 ) {
     fun toDomain(): User {
         return User(
-            username = username,
+            userName = username,
             email = email
         )
     }

@@ -7,7 +7,7 @@ data class Response<T> private constructor(
 ) {
     companion object {
         fun <T> success(data: T): Response<T> {
-            return Response(data, null, "success")
+            return Response(data, "정상", "success")
         }
 
         fun <T> fail(message: String? = null): Response<T> {

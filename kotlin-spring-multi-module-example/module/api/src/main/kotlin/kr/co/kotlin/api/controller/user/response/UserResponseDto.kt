@@ -11,7 +11,7 @@ data class UserResponseDto(
         fun fromDomain(domain: User): UserResponseDto {
             return UserResponseDto(
                 id = domain.id,
-                username = domain.username,
+                username = domain.userName,
                 email = domain.email
             )
         }

@@ -6,7 +6,7 @@ import org.hibernate.annotations.UpdateTimestamp
 import java.time.ZonedDateTime
 
 @MappedSuperclass
-internal abstract class BaseEntity(
+abstract class BaseEntity(
     @CreationTimestamp
     val createdAt: ZonedDateTime? = null,
 

@@ -1,5 +1,4 @@
 rootProject.name = "boilerplate"
-
 include(
     "module:api",
     "module:domain",

@@ -8,25 +8,27 @@ import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
 import jakarta.persistence.Table
+import org.hibernate.annotations.DynamicUpdate
 
 @Entity
 @Table(name = "users")
-internal class UserEntity(
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    val id: Long = 0,
-
+@DynamicUpdate
+class UserEntity(
     @Column(name = "username")
-    val username: String,
+    var username: String,
 
     @Column(name = "email")
-    val email: String
+    var email: String,
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    val id: Long = 0
 ) : BaseEntity() {
     companion object {
         fun fromDomain(domain: User) : UserEntity {
             return UserEntity(
                 id = domain.id,
-                username = domain.username,
+                username = domain.userName,
                 email = domain.email
             )
         }
@@ -35,8 +37,12 @@ internal class UserEntity(
     fun toDomain(): User {
         return User(
             id = id,
-            username = username,
+            userName = username,
             email = email
         )
+    }
+
+    fun updateUserName(userName: String) {
+        this.username = username
     }
 }
