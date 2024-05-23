@@ -14,8 +14,9 @@ class UserTransactionDService(
         return user.id
     }
 
+    @Transactional
     fun updateUser(id: Long, userName: String): Long {
-        var user = userRepository.findByIdOrNull(id) ?: throw IllegalArgumentException("User not found")
+        val user = userRepository.findByIdOrNull(id) ?: throw IllegalArgumentException("User not found")
         user.updateUserName(userName)
 
         userRepository.update(user)

@@ -2,10 +2,10 @@ spring.application.name:
 spring.profiles.active: local
 
 spring:
-  config:
-    import:
-      - logging.yml
-      - infrastructure-rdb.yml
+    config:
+        import:
+            - logging.yml
+            - infrastructure-rdb.yml
 ---
 spring.config.activate.on-profile: local
 

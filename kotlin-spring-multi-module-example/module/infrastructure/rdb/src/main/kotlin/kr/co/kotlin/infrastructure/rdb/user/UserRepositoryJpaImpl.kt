@@ -31,6 +31,7 @@ internal class UserRepositoryJpaImpl(
         userJpaRepository.findByIdOrNull(userDomain.id)
             ?.let { entity ->
                 entity.updateUserName(userDomain.userName)
+                userJpaRepository.save(entity)
             }
             ?: throw IllegalArgumentException("User not found")
     }
@@ -40,7 +41,7 @@ internal class UserRepositoryJpaImpl(
     }
 
     override fun update3(userDomain: User) {
-        var entity = userJpaRepository.findByIdOrNull(userDomain.id) ?: throw IllegalArgumentException("User not found")
+        val entity = userJpaRepository.findByIdOrNull(userDomain.id) ?: throw IllegalArgumentException("User not found")
         entity.updateUserName(userDomain.userName)
     }
 
