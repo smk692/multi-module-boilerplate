@@ -1,6 +1,6 @@
 package kr.co.kotlin.infrastructure.rdb.user
 
-import kr.co.kotlin.domain.user.domain.User
+import kr.co.kotlin.domain.user.model.User
 import kr.co.kotlin.infrastructure.rdb.BaseEntity
 import jakarta.persistence.Column
 import jakarta.persistence.Entity

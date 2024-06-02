@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="abc7abc5-f868-4447-8ed5-f82c496108c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/api/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/api/src/main/kotlin/com/son/module/api/ApiApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/api/src/test/kotlin/com/son/module/api/ApiApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/worker/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/worker/src/main/kotlin/com/son/module/worker/WorkerApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/worker/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/worker/src/test/kotlin/com/son/module/worker/WorkerApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/BasteEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/domain/Comment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/domain/Like.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/domain/Post.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/domain/Tag.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/dto/CommentUpdateRequestDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/dto/PostUpdateRequestDto.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/exception/CommentException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/exception/PostException.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/repository/CommentRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/repository/LikeRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/repository/PostRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/repository/TagRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/test/kotlin/com/son/module/domain/ModuleDomianApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/kafka/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/kafka/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/kafka/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/kafka/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/kafka/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/kafka/src/main/kotlin/com/son/module/kafka/KafkaApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/kafka/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/kafka/src/test/kotlin/com/son/module/kafka/KafkaApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/persistence/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/persistence/src/main/kotlin/com/son/module/persistence/adapter/entity/SampleJpaEntity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/persistence/src/main/kotlin/com/son/module/persistence/adapter/repository/SampleJpaRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/persistence/src/main/kotlin/com/son/module/persistence/config/JpaConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/persistence/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/persistence/src/test/kotlin/com/son/module/persistence/adapter/PersistanceApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/usecase/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/usecase/src/main/kotlin/com/son/module/usecase/core/config/UseCaseConfig.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/usecase/src/main/kotlin/com/son/module/usecase/usecase/borad/CreateComment.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/usecase/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/module/usecase/src/test/kotlin/com/son/module/usecase/ModuleUsecaseApplicationTests.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hexagonal-multi-module/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/alert/event/SlackDmSenderEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/alert/event/SlackErrorSenderEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/alert/event/SlackSenderAsyncEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/alert/event/SlackSenderBulkEvent.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/alert/handler/SlackSenderEventListener.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/api/src/main/kotlin/kr/co/kotlin/api/controller/user/application/UserService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/api/src/main/kotlin/kr/co/kotlin/api/controller/user/application/UserService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/api/src/main/kotlin/kr/co/kotlin/api/controller/user/request/UserCreateRequestDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/api/src/main/kotlin/kr/co/kotlin/api/controller/user/request/UserCreateRequestDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/api/src/main/kotlin/kr/co/kotlin/api/controller/user/response/UserResponseDto.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/api/src/main/kotlin/kr/co/kotlin/api/controller/user/response/UserResponseDto.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/api/src/test/kotlin/kr/co/kotlin/api/controller/user/api/UserControllerTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/api/src/test/kotlin/kr/co/kotlin/api/controller/user/api/UserControllerTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/user/domain/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/user/model/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/user/repository/UserRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/user/repository/UserRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/user/service/UserReaderDService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/user/service/UserReaderDService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/user/service/UserTransactionDService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain/src/main/kotlin/kr/co/kotlin/domain/user/service/UserTransactionDService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/infrastructure/rdb/src/main/kotlin/kr/co/kotlin/infrastructure/rdb/user/UserEntity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/infrastructure/rdb/src/main/kotlin/kr/co/kotlin/infrastructure/rdb/user/UserEntity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/infrastructure/rdb/src/main/kotlin/kr/co/kotlin/infrastructure/rdb/user/UserRepositoryJpaImpl.kt" beforeDir="false" afterPath="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/infrastructure/rdb/src/main/kotlin/kr/co/kotlin/infrastructure/rdb/user/UserRepositoryJpaImpl.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module/module">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module/module-bootstrap">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module/module-bootstrap/api">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module/module-bootstrap/worker">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module/module-domian">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module/module-infrastructure">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module/module-infrastructure/kafka">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module/module-infrastructure/persistance">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/hexagonal-multi-module/module-usecase">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/kotlin-spring-multi-module-example">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/hexagonal-multi-module">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hexagonal-multi-module/module/domain">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/hexagonal-multi-module/module">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal-multi-module" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal-multi-module" type="f1a62948:ProjectNode" />
+                <item name="module" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal-multi-module" type="f1a62948:ProjectNode" />
+                <item name="module" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="hexagonal-multi-module" type="f1a62948:ProjectNode" />
+                <item name="module" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/domain/BasteEntity.kt" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;arn:aws:eks:ap-northeast-2:310346655133:cluster/eks-dev-cluster&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="arn:aws:eks:ap-northeast-2:310346655133:cluster/eks-dev-cluster" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+    <option name="showPreview" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2gXXuxiOTg0s0OabQ6tvgNI85YZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Gradle.Build kotlin-spring-multi-module-example.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ApiApplication.executor": "Run",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "graalvm-ce-17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/sonmingi/Desktop/test/multi-module-boilerplate/hexagonal-multi-module/gradle",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hexagonal-multi-module/gradle" />
+      <recent name="$PROJECT_DIR$/hexagonal-multi-module" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module" />
+      <recent name="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/domain" />
+      <recent name="$PROJECT_DIR$/hexagonal-multi-module/module/domian/src/main/kotlin/com/son/module/borad/domain" />
+      <recent name="$PROJECT_DIR$/hexagonal-multi-module/module" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.son.module.borad.domain" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.son.module.usecase.core.config" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kr.co.kotlin.domain.alert.event" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiApplication">
+    <configuration name="ApiApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="hexagonal-multi-module.module.bootstrap.api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.son.module.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="boilerplate.module.api.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kr.co.kotlin.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModuleUsecaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="module-usecase.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.son.module.usecase.ModuleUsecaseApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="hexagonal-multi-module.module.bootstrap.worker.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.son.module.worker.WorkerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StandaloneScriptsStorage">
+    <option name="files">
+      <set>
+        <option value="$PROJECT_DIR$/hexagonal-multi-module/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/hexagonal-multi-module/module/domian/build.gradle.kts" />
+        <option value="$PROJECT_DIR$/hexagonal-multi-module/settings.gradle.kts" />
+      </set>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="abc7abc5-f868-4447-8ed5-f82c496108c7" name="Changes" comment="" />
+      <created>1715845122218</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715845122218</updated>
+      <workItem from="1715845123303" duration="2649000" />
+      <workItem from="1716519291824" duration="12565000" />
+      <workItem from="1717308530580" duration="4585000" />
+      <workItem from="1717313129420" duration="5252000" />
+      <workItem from="1717335088144" duration="8723000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

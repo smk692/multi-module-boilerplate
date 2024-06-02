@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Gradle Imported" enabled="true">
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.2.5/748cf1d49e04e20db1784e88f676657cd030d937/spring-boot-configuration-processor-3.2.5.jar" />
+        </processorPath>
+        <module name="hexagonal-multi-module.module.usecase.main" />
+        <module name="hexagonal-multi-module.module.infrastructure.main" />
+        <module name="hexagonal-multi-module.module.bootstrap.main" />
+        <module name="hexagonal-multi-module.module.domain.main" />
+        <module name="hexagonal-multi-module.module.infrastructure.persistence.main" />
+        <module name="hexagonal-multi-module.module.bootstrap.api.main" />
+        <module name="hexagonal-multi-module.module.main" />
+        <module name="hexagonal-multi-module.module.bootstrap.worker.main" />
+        <module name="hexagonal-multi-module.module.infrastructure.kafka.main" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="17" />
+      <module name="api.main" target="17" />
+      <module name="api.test" target="17" />
+      <module name="bootstrap" target="17" />
+      <module name="domian" target="17" />
+      <module name="infrastructure" target="17" />
+      <module name="kafka" target="17" />
+      <module name="kafka.main" target="17" />
+      <module name="kafka.test" target="17" />
+      <module name="module" target="17" />
+      <module name="module-bootstrap.main" target="17" />
+      <module name="module-bootstrap.test" target="17" />
+      <module name="module-domian.main" target="17" />
+      <module name="module-domian.test" target="17" />
+      <module name="module-infrastructure.main" target="17" />
+      <module name="module-infrastructure.test" target="17" />
+      <module name="module-usecase.main" target="17" />
+      <module name="module-usecase.test" target="17" />
+      <module name="module.main" target="17" />
+      <module name="module.test" target="17" />
+      <module name="persistance.main" target="17" />
+      <module name="persistance.test" target="17" />
+      <module name="persistence" target="17" />
+      <module name="usecase" target="17" />
+      <module name="worker" target="17" />
+      <module name="worker.main" target="17" />
+      <module name="worker.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

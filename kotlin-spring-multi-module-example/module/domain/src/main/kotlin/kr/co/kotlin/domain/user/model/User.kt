@@ -1,4 +1,4 @@
-package kr.co.kotlin.domain.user.domain
+package kr.co.kotlin.domain.user.model
 
 data class User(
     val id: Long = 0,

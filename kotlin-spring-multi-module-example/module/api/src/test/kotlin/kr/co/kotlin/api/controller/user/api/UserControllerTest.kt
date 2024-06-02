@@ -2,12 +2,9 @@ import com.fasterxml.jackson.databind.ObjectMapper
 import kr.co.kotlin.api.ApiApplication
 import kr.co.kotlin.api.controller.user.api.UserController
 import kr.co.kotlin.api.controller.user.application.UserService
-import kr.co.kotlin.api.controller.user.request.UserCreateRequestDto
 import kr.co.kotlin.api.controller.user.request.UserUpdateRequestDto
 import kr.co.kotlin.api.controller.user.response.UserResponseDto
-import kr.co.kotlin.domain.user.domain.User
-import kr.co.kotlin.domain.user.service.UserReaderDService
-import kr.co.kotlin.domain.user.service.UserTransactionDService
+import kr.co.kotlin.domain.user.model.User
 import kr.co.kotlin.support.util.response.Response
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test

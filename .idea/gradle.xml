@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hexagonal-multi-module" />
+        <option name="gradleJvm" value="graalvm-ce-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/hexagonal-multi-module" />
+            <option value="$PROJECT_DIR$/hexagonal-multi-module/module" />
+            <option value="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap" />
+            <option value="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/api" />
+            <option value="$PROJECT_DIR$/hexagonal-multi-module/module/bootstrap/worker" />
+            <option value="$PROJECT_DIR$/hexagonal-multi-module/module/domain" />
+            <option value="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure" />
+            <option value="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/kafka" />
+            <option value="$PROJECT_DIR$/hexagonal-multi-module/module/infrastructure/persistence" />
+            <option value="$PROJECT_DIR$/hexagonal-multi-module/module/usecase" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/kotlin-spring-multi-module-example" />
+        <option name="gradleJvm" value="graalvm-ce-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/kotlin-spring-multi-module-example" />
+            <option value="$PROJECT_DIR$/kotlin-spring-multi-module-example/module" />
+            <option value="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/api" />
+            <option value="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/domain" />
+            <option value="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/infrastructure" />
+            <option value="$PROJECT_DIR$/kotlin-spring-multi-module-example/module/infrastructure/rdb" />
+            <option value="$PROJECT_DIR$/kotlin-spring-multi-module-example/support" />
+            <option value="$PROJECT_DIR$/kotlin-spring-multi-module-example/support/logging" />
+            <option value="$PROJECT_DIR$/kotlin-spring-multi-module-example/support/util" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

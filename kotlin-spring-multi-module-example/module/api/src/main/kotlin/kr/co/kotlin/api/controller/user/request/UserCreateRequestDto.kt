@@ -1,6 +1,6 @@
 package kr.co.kotlin.api.controller.user.request
 
-import kr.co.kotlin.domain.user.domain.User
+import kr.co.kotlin.domain.user.model.User
 
 data class UserCreateRequestDto(
     val username: String,

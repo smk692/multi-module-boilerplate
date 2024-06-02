@@ -2,8 +2,7 @@ package kr.co.kotlin.api.controller.user.application
 
 import kr.co.kotlin.api.controller.user.request.UserCreateRequestDto
 import kr.co.kotlin.api.controller.user.request.UserUpdateRequestDto
-import kr.co.kotlin.domain.user.domain.User
-import kr.co.kotlin.domain.user.repository.UserRepository
+import kr.co.kotlin.domain.user.model.User
 import kr.co.kotlin.domain.user.service.UserReaderDService
 import kr.co.kotlin.domain.user.service.UserTransactionDService
 import org.springframework.stereotype.Service

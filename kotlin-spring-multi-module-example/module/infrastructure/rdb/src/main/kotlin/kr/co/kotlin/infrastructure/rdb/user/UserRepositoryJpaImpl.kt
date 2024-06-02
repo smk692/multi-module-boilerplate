@@ -1,7 +1,7 @@
 package kr.co.kotlin.infrastructure.rdb.user
 
 import com.querydsl.jpa.impl.JPAQueryFactory
-import kr.co.kotlin.domain.user.domain.User
+import kr.co.kotlin.domain.user.model.User
 import kr.co.kotlin.domain.user.repository.UserRepository
 import org.springframework.data.repository.findByIdOrNull
 import org.springframework.stereotype.Repository

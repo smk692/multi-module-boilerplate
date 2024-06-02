@@ -1,6 +1,6 @@
 package kr.co.kotlin.domain.user.repository
 
-import kr.co.kotlin.domain.user.domain.User
+import kr.co.kotlin.domain.user.model.User
 
 interface UserRepository {
     fun findByIdOrNull(id: Long): User?

@@ -1,6 +1,6 @@
 package kr.co.kotlin.api.controller.user.response
 
-import kr.co.kotlin.domain.user.domain.User
+import kr.co.kotlin.domain.user.model.User
 
 data class UserResponseDto(
     val id: Long,
